@@ -1,0 +1,35 @@
+GET http://localhost:8080/store/order/get
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Cookie: JSESSIONID=0ABFCD1B50289518449D92B9B4FC15CB
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-09T101146.200.json
+
+###
+
+GET http://localhost:8080/store/order/add?id=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/store/order/add?id=1,2,3,4,5
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-09T100939.404.json
+
+###
+
+GET http://localhost:8080/store/order/add?id=1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-05-09T100931.404.json
+
+###
+
